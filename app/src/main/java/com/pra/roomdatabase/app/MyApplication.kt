@@ -17,13 +17,11 @@ class MyApplication : Application() {
             }
             return instance
         }
-
-
     }
 
     override fun onCreate() {
         super.onCreate()
-       // appDataBase = AppDataBase.getDataBase(applicationContext)
+        // appDataBase = AppDataBase.getDataBase(applicationContext)
     }
 
     fun getRoomDataBaseInstance(context: Context): AppDataBase {
